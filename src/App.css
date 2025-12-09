@@ -1,0 +1,15 @@
+.hover-active {
+  background-color: #f0a500;
+  color: #f88630;
+}
+
+.hover-active::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 8px;
+  background-color: #f88630;
+  border-radius: 0 4px 4px 0;
+}
